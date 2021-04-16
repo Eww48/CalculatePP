@@ -1,0 +1,15 @@
+D:\C# Project\CalculateApp\CalculateApp\bin\Debug\CalculateApp.exe.config
+D:\C# Project\CalculateApp\CalculateApp\bin\Debug\CalculateApp.exe
+D:\C# Project\CalculateApp\CalculateApp\bin\Debug\CalculateApp.pdb
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp.csprojAssemblyReference.cache
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\MainWindow.g.cs
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\App.g.cs
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp_MarkupCompile.cache
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp_MarkupCompile.lref
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\MainWindow.baml
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp.g.resources
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp.Properties.Resources.resources
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp.csproj.GenerateResource.cache
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp.csproj.CoreCompileInputs.cache
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp.exe
+D:\C# Project\CalculateApp\CalculateApp\obj\Debug\CalculateApp.pdb

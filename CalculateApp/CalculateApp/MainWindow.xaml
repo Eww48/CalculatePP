@@ -1,0 +1,25 @@
+﻿<Window x:Class="CalculateApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculateApp"
+        mc:Ignorable="d"
+        Title="CalculatePP" Height="450" Width="800">
+    <Grid Background="#FF45559C">
+        <Button x:Name="btnCalc" Content="Calculate" HorizontalAlignment="Left" Height="54" Margin="58,290,0,0" VerticalAlignment="Top" Width="159" Click="Button_Click" FontFamily="Tekton Pro" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="83,73,0,0" TextWrapping="Wrap" Text="Income" VerticalAlignment="Top" Width="68" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Height="27" Margin="83,133,0,0" TextWrapping="Wrap" Text="expenses" VerticalAlignment="Top" Width="90" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="83,189,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" Width="68" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="264,303,0,0" TextWrapping="Wrap" Text="You have to collect money for" VerticalAlignment="Top" Width="269" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="686,303,0,0" TextWrapping="Wrap" Text="Days" VerticalAlignment="Top" Width="53" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+        <TextBox x:Name="txtDays" HorizontalAlignment="Left" Height="30" Margin="548,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Tekton Pro" FontSize="20" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="txtIncome" HorizontalAlignment="Left" Height="30" Margin="233,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontFamily="Tekton Pro" FontSize="20" TextAlignment="Center"/>
+        <TextBox x:Name="txtExpenses" HorizontalAlignment="Left" Height="30" Margin="233,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontFamily="Tekton Pro" FontSize="20" TextAlignment="Center"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="30" Margin="233,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontFamily="Tekton Pro" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="598,73,0,0" TextWrapping="Wrap" Text="Baht/Day" VerticalAlignment="Top" Width="93" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="598,133,0,0" TextWrapping="Wrap" Text="Baht/Day" VerticalAlignment="Top" Width="93" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="598,187,0,0" TextWrapping="Wrap" Text="Baht" VerticalAlignment="Top" Width="93" TextAlignment="Center" FontFamily="Tekton Pro" FontSize="22"/>
+
+    </Grid>
+</Window>
