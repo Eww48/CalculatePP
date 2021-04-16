@@ -38,7 +38,17 @@ namespace CalculateApp
             price = int.Parse(txtPrice.Text);
             minus = income - expense;
             result = price / minus;
-            txtDays.Text = result.ToString();
+            if (income == expense)
+            {
+                MessageBox.Show("You need more income or less your expenses.");
+            }else if(income <= expense)
+            {
+                MessageBox.Show("You need more income or less your expenses.");
+            }
+            else if (income >= expense)
+            {
+                txtDays.Text = result.ToString();
+            }
         }
     }
 }
