@@ -25,6 +25,7 @@ namespace CalculateApp
         float minus;
         int price;
         float result;
+        string test;
 
         public MainWindow()
         {
